@@ -17,6 +17,9 @@
 .nav-link.active{
     color: #FFC107;
 }
+.dropdown-item{
+    font-size: 14px;
+}
 .btn {
     font-size: 16px;
     padding: 5px 30px;
@@ -80,7 +83,7 @@
     font-weight: 200;
 }
 
-.container2-about h1, .container4-about h1, .contact h1, .login h1, .transfers h1 {
+.container2-about h1, .container4-about h1, .contact h1, .login h1, .transfers h1, .password-heading {
     font-weight: bold;
 }
 
@@ -166,6 +169,30 @@
 }
 .transfers button{
     width: 30%;
+}
+.amount-div{
+    position: absolute;
+    top:30%;
+    left: 25%;
+    background: white;
+    opacity: 100%;
+    box-shadow: 0 30px 45px rgb(9%,9%,9%,0.2);
+    z-index: 40;
+}
+.overlay{
+    position: fixed;
+    background: black;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.change_password input{
+    padding: 3px 15px;
 }
 /*media*/
 @media (max-width: 992px) {

@@ -232,11 +232,14 @@
         width: 100%; !important;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 585px) {
     .login{
         width: 90%;
     }
     .transfers button{
         width: 100%; !important;
+    }
+    .summary-text{
+        text-align: start;
     }
 }
